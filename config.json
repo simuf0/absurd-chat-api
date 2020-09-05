@@ -1,6 +1,9 @@
 {
   "port": 4000,
   "mongoDb": {
-    "host": "mongodb://localhost:27017/absurd_chat"
+    "host": "mongodb://localhost:27017?authSource=admin",
+    "name": "absurd_chat",
+    "username": "absurd_chat",
+    "password": "#S-t2zU8@4Hn"
   }
 }

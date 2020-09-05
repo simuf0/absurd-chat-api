@@ -5,18 +5,11 @@ mongo.connect(config.mongoDb.host, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
-  useCreateIndex: true
+  useCreateIndex: true,
+  dbName: config.mongoDb.name,
+  user: config.mongoDb.username,
+  pass: config.mongoDb.password,
 });
-
-// // Connected handler
-// mongo.connection.on("connected", function (err) {
-//   console.log("Connected to mongo: " + config.mongoDb.host);
-// });
-
-// // Error handler
-// mongo.connection.on("error", function (err) {
-//   console.log(err);
-// });
 
 mongo.Promise = global.Promise;
 
