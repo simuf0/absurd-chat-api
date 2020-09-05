@@ -1,0 +1,5 @@
+{
+  "mongoDb": {
+    "host": "mongodb://localhost:27017/absurd_chat"
+  }
+}

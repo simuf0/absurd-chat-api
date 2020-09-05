@@ -1,0 +1,30 @@
+{
+  "name": "absurd-chat-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "mongoose": "^5.10.3",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simUf0/absurd-chat-api.git"
+  },
+  "author": "Simon Cabos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simUf0/absurd-chat-api/issues"
+  },
+  "homepage": "https://github.com/simUf0/absurd-chat-api#readme"
+}
