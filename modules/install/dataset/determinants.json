@@ -1,0 +1,310 @@
+[
+  {
+    "value": "le",
+    "type": 0,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "la",
+    "type": 0,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "les",
+    "type": 0,
+    "nombre": 1
+  },
+  {
+    "value": "un",
+    "type": 1,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "une",
+    "type": 1,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "des",
+    "type": 1,
+    "nombre": 1
+  },
+  {
+    "value": "du",
+    "type": 2,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "de la",
+    "type": 2,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "des",
+    "type": 2,
+    "nombre": 1
+  },
+  {
+    "value": "ce",
+    "type": 3,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "cette",
+    "type": 3,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "ces",
+    "type": 3,
+    "nombre": 1
+  },
+  {
+    "value": "mon",
+    "type": 4,
+    "index": 0,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "ma",
+    "type": 4,
+    "index": 0,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "mes",
+    "type": 4,
+    "index": 0,
+    "nombre": 1
+  },
+  {
+    "value": "ton",
+    "type": 4,
+    "index": 1,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "ta",
+    "type": 4,
+    "index": 1,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "tes",
+    "type": 4,
+    "index": 1,
+    "nombre": 1
+  },
+  {
+    "value": "son",
+    "type": 4,
+    "index": 2,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "sa",
+    "type": 4,
+    "index": 2,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "ses",
+    "type": 4,
+    "index": 2,
+    "nombre": 1
+  },
+  {
+    "value": "notre",
+    "type": 4,
+    "index": 3,
+    "nombre": 0
+  },
+  {
+    "value": "nos",
+    "type": 4,
+    "index": 3,
+    "nombre": 1
+  },
+  {
+    "value": "votre",
+    "type": 4,
+    "index": 4,
+    "nombre": 0
+  },
+  {
+    "value": "vos",
+    "type": 4,
+    "index": 4,
+    "nombre": 1
+  },
+  {
+    "value": "leur",
+    "type": 4,
+    "index": 5,
+    "nombre": 0
+  },
+  {
+    "value": "leurs",
+    "type": 4,
+    "index": 5,
+    "nombre": 1
+  },
+  {
+    "value": "quel",
+    "type": 5,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "quelle",
+    "type": 5,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "quels",
+    "type": 5,
+    "nombre": 1,
+    "genre": 0
+  },
+  {
+    "value": "quelles",
+    "type": 5,
+    "nombre": 1,
+    "genre": 1
+  },
+  {
+    "value": "lequel",
+    "type": 6,
+    "nombre": 0,
+    "genre": 0
+  },
+  {
+    "value": "laquelle",
+    "type": 6,
+    "nombre": 0,
+    "genre": 1
+  },
+  {
+    "value": "lesquels",
+    "type": 6,
+    "nombre": 1,
+    "genre": 0
+  },
+  {
+    "value": "lesquelles",
+    "type": 6,
+    "nombre": 1,
+    "genre": 1
+  },
+  {
+    "value": "aucun",
+    "type": 7
+  },
+  {
+    "value": "certain",
+    "type": 7
+  },
+  {
+    "value": "chaque",
+    "type": 7
+  },
+  {
+    "value": "différent",
+    "type": 7
+  },
+  {
+    "value": "différents",
+    "type": 7
+  },
+  {
+    "value": "différente",
+    "type": 7
+  },
+  {
+    "value": "différentes",
+    "type": 7
+  },
+  {
+    "value": "divers",
+    "type": 7
+  },
+  {
+    "value": "maint",
+    "type": 7
+  },
+  {
+    "value": "maints",
+    "type": 7
+  },
+  {
+    "value": "mainte",
+    "type": 7
+  },
+  {
+    "value": "maintes",
+    "type": 7
+  },
+  {
+    "value": "nuls",
+    "type": 7
+  },
+  {
+    "value": "nul",
+    "type": 7
+  },
+  {
+    "value": "nulle",
+    "type": 7
+  },
+  {
+    "value": "nulles",
+    "type": 7
+  },
+  {
+    "value": "plusieurs",
+    "type": 7
+  },
+  {
+    "value": "quelques",
+    "type": 7
+  },
+  {
+    "value": "tel",
+    "type": 7
+  },
+  {
+    "value": "tout",
+    "type": 7
+  },
+  {
+    "value": "toute",
+    "type": 7
+  },
+  {
+    "value": "autre",
+    "type": 7
+  },
+  {
+    "value": "trop de",
+    "type": 7
+  },
+  {
+    "value": "n'importe quel",
+    "type": 7
+  }
+]
