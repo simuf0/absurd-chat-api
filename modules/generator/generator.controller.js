@@ -13,6 +13,8 @@ router.get("/pronom", pronom);
 router.get("/substantif", substantif);
 router.get("/verbe", verbe);
 
+router.get("/groupe-nominal", groupeNominal);
+
 function adjectif(req, res, next) {
   generatorService.adjectif(req.query)
     .then(word => res.json(word))
@@ -58,5 +60,11 @@ function substantif(req, res, next) {
 function verbe(req, res, next) {
   generatorService.verbe(req.query)
     .then(word => res.json(word))
+    .catch(err => next(err));
+}
+
+function groupeNominal(req, res, next) {
+  generatorService.groupeNominal(req.query)
+    .then(words => res.json(words))
     .catch(err => next(err));
 }
