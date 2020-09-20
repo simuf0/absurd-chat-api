@@ -212,91 +212,253 @@
     "genre": 1
   },
   {
-    "value": "aucun",
-    "type": 7
-  },
-  {
-    "value": "certain",
-    "type": 7
-  },
-  {
-    "value": "chaque",
-    "type": 7
-  },
-  {
-    "value": "différent",
-    "type": 7
-  },
-  {
-    "value": "différents",
-    "type": 7
-  },
-  {
-    "value": "différente",
-    "type": 7
-  },
-  {
-    "value": "différentes",
-    "type": 7
-  },
-  {
-    "value": "divers",
-    "type": 7
-  },
-  {
-    "value": "maint",
-    "type": 7
-  },
-  {
-    "value": "maints",
-    "type": 7
-  },
-  {
-    "value": "mainte",
-    "type": 7
-  },
-  {
-    "value": "maintes",
-    "type": 7
-  },
-  {
-    "value": "nuls",
-    "type": 7
-  },
-  {
-    "value": "nul",
-    "type": 7
-  },
-  {
-    "value": "nulle",
-    "type": 7
-  },
-  {
-    "value": "nulles",
-    "type": 7
-  },
-  {
-    "value": "plusieurs",
-    "type": 7
-  },
-  {
-    "value": "quelques",
-    "type": 7
-  },
-  {
-    "value": "tel",
-    "type": 7
-  },
-  {
     "value": "tout",
-    "type": 7
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "tous",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
   },
   {
     "value": "toute",
-    "type": 7
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "toutes",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "nul",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "nuls",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "nulle",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "nulles",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "aucun",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "aucuns",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "aucune",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "aucunes",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "certain",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "certains",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "certaine",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "certaines",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "divers",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "divers",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "diverse",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "diverses",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "différent",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "différents",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "différente",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "différentes",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "maint",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "maints",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "mainte",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "maintes",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "tel",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "tels",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "telle",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "telles",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "n'importe quel",
+    "type": 7,
+    "genre": 0,
+    "nombre": 0
+  },
+  {
+    "value": "n'importe quels",
+    "type": 7,
+    "genre": 0,
+    "nombre": 1
+  },
+  {
+    "value": "n'importe quelle",
+    "type": 7,
+    "genre": 1,
+    "nombre": 0
+  },
+  {
+    "value": "n'importe quelles",
+    "type": 7,
+    "genre": 1,
+    "nombre": 1
+  },
+  {
+    "value": "quelque",
+    "type": 7,
+    "nombre": 0
+  },
+  {
+    "value": "quelques",
+    "type": 7,
+    "nombre": 1
+  },
+  {
+    "value": "chaque",
+    "type": 7,
+    "nombre": 0
+  },
+  {
+    "value": "chaques",
+    "type": 7,
+    "nombre": 1
   },
   {
     "value": "autre",
+    "type": 7,
+    "nombre": 0
+  },
+  {
+    "value": "autres",
+    "type": 7,
+    "nombre": 1
+  },
+  {
+    "value": "plusieurs",
     "type": 7
   },
   {
@@ -304,7 +466,7 @@
     "type": 7
   },
   {
-    "value": "n'importe quel",
+    "value": "trop peu de",
     "type": 7
   }
 ]

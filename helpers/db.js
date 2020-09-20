@@ -1,7 +1,8 @@
 const config = require("config");
 const mongo = require("mongoose");
+const models = require("models");
 
-mongo.connect(config.mongoDb.host, {
+const connection = mongo.connect(config.mongoDb.host, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
@@ -14,13 +15,15 @@ mongo.connect(config.mongoDb.host, {
 mongo.Promise = global.Promise;
 
 module.exports = {
-  Adjectif: require("models/adjectif.model"),
-  Adverbe: require("models/adverbe.model"),
-  Determinant: require("models/determinant.model"),
-  Infinitif: require("models/infinitif.model"),
-  Participe: require("models/participe.model"),
-  Pronom: require("models/Pronom.model"),
-  Substantif: require("models/substantif.model"),
-  Verbe: require("models/verbe.model"),
+  Adjectif: models.adjectif,
+  Adverbe: models.adverbe,
+  Determinant: models.determinant,
+  Infinitif: models.infinitif,
+  Participe: models.participe,
+  Preposition: models.preposition,
+  Pronom: models.pronom,
+  Substantif: models.substantif,
+  Verbe: models.verbe,
   mongo: mongo,
+  connection: connection,
 };

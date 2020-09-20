@@ -6,6 +6,9 @@ const schema = new mongo.Schema({
   nombre: { type: Number, required: true },
 });
 
-schema.set("toJSON", { virtuals: true });
+schema
+  .set("toJSON", { virtuals: true })
+  .index({ value: 1 })
+  .index({ genre: 1, nombre: 1 });
 
 module.exports = mongo.model("adjectif", schema);

@@ -6,6 +6,9 @@ const schema = new mongo.Schema({
   index: { type: Number, required: true },
 });
 
-schema.set("toJSON", { virtuals: true });
+schema
+  .set("toJSON", { virtuals: true })
+  .index({ value: 1 })
+  .index({ temps: 1, index: 1 });
 
 module.exports = mongo.model("verbe", schema);

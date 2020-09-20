@@ -119,23 +119,28 @@
   },
   {
     "value": "qui",
-    "type": 4
+    "type": 4,
+    "fonction": 0
   },
   {
     "value": "que",
-    "type": 4
+    "type": 4,
+    "fonction": 1
   },
   {
     "value": "quoi",
-    "type": 4
+    "type": 4,
+    "fonction": 2
   },
   {
     "value": "dont",
-    "type": 4
+    "type": 4,
+    "fonction": 3
   },
   {
     "value": "où",
-    "type": 4
+    "type": 4,
+    "fonction": 4
   },
   {
     "value": "qui",
@@ -347,8 +352,7 @@
   },
   {
     "value": "ce",
-    "type": 7,
-    "nombre": 0
+    "type": 7
   },
   {
     "value": "celui-ci",
@@ -400,17 +404,14 @@
   },
   {
     "value": "ceci",
-    "type": 8,
-    "nombre": 0
+    "type": 8
   },
   {
     "value": "cela",
-    "type": 8,
-    "nombre": 0
+    "type": 8
   },
   {
     "value": "ça",
-    "type": 8,
-    "nombre": 0
+    "type": 8
   }
 ]
